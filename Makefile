@@ -50,7 +50,7 @@ TESSERACT_VERSION := 4.1.0
 TESSDATA_REPO = _best
 
 # Ground truth directory. Default: $(GROUND_TRUTH_DIR)
-GROUND_TRUTH_DIR := $(OUTPUT_DIR)-ground-truth
+GROUND_TRUTH_DIR := $(DATA_DIR)/ground-truth
 
 # Max iterations. Default: $(MAX_ITERATIONS)
 MAX_ITERATIONS := 10000
